@@ -6,5 +6,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/Redeeyak1318/Leetcode/tree/master/0066-plus-one) |
 | [2235-add-two-integers](https://github.com/Redeeyak1318/Leetcode/tree/master/2235-add-two-integers) |
+## Array
+|  |
+| ------- |
+| [0066-plus-one](https://github.com/Redeeyak1318/Leetcode/tree/master/0066-plus-one) |
 <!---LeetCode Topics End-->
