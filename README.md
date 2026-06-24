@@ -11,5 +11,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Redeeyak1318/Leetcode/tree/master/0035-search-insert-position) |
 | [0066-plus-one](https://github.com/Redeeyak1318/Leetcode/tree/master/0066-plus-one) |
+## Binary Search
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/Redeeyak1318/Leetcode/tree/master/0035-search-insert-position) |
 <!---LeetCode Topics End-->
