@@ -8,7 +8,7 @@ public:
 
             int complement = target - nums[i];
 
-            if (mp.count(complement)) {
+            if (mp.find(complement) != mp.end()) {
                 return {mp[complement], i};
             }
 
