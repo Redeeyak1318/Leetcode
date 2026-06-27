@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/Redeeyak1318/Leetcode/tree/master/0283-move-zeroes) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0704-binary-search](https://github.com/Redeeyak1318/Leetcode/tree/master/0704-binary-search) |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Redeeyak1318/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 ## Binary Search
 |  |
 | ------- |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Redeeyak1318/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Redeeyak1318/Leetcode/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/Redeeyak1318/Leetcode/tree/master/0169-majority-element) |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Redeeyak1318/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 ## String
 |  |
 | ------- |
@@ -69,4 +71,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0283-move-zeroes](https://github.com/Redeeyak1318/Leetcode/tree/master/0283-move-zeroes) |
+## Enumeration
+|  |
+| ------- |
+| [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Redeeyak1318/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 <!---LeetCode Topics End-->
