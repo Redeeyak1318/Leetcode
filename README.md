@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Redeeyak1318/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Redeeyak1318/Leetcode/tree/master/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/Redeeyak1318/Leetcode/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/Redeeyak1318/Leetcode/tree/master/0067-add-binary) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [2235-add-two-integers](https://github.com/Redeeyak1318/Leetcode/tree/master/2235-add-two-integers) |
 ## Array
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Redeeyak1318/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Redeeyak1318/Leetcode/tree/master/0013-roman-to-integer) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Redeeyak1318/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0067-add-binary](https://github.com/Redeeyak1318/Leetcode/tree/master/0067-add-binary) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -69,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Redeeyak1318/Leetcode/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/Redeeyak1318/Leetcode/tree/master/0136-single-number) |
 ## Two Pointers
 |  |
@@ -87,4 +90,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Redeeyak1318/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/Redeeyak1318/Leetcode/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
