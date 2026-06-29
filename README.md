@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0704-binary-search](https://github.com/Redeeyak1318/Leetcode/tree/master/0704-binary-search) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Redeeyak1318/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Redeeyak1318/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Redeeyak1318/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 ## Binary Search
 |  |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Redeeyak1318/Leetcode/tree/master/0067-add-binary) |
 | [0344-reverse-string](https://github.com/Redeeyak1318/Leetcode/tree/master/0344-reverse-string) |
 | [0389-find-the-difference](https://github.com/Redeeyak1318/Leetcode/tree/master/0389-find-the-difference) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Redeeyak1318/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Dynamic Programming
 |  |
 | ------- |
