@@ -1,15 +1,28 @@
 int singleNonDuplicate(int* nums, int numsSize) {
-    if(numsSize == 1)
-        return nums[0];
-    if(nums[0]!=nums[1])
-        return nums[0];
-    if(nums[numsSize-1]!=nums[numsSize-2])
-        return nums[numsSize-1];
-    for(int i=1;i<numsSize-1;i++)
+    int low=0;
+    int high=numsSize-1;
+    while(low<high)
     {
-        if(nums[i]!=nums[i+1] && nums[i]!=nums[i-1])
-            return nums[i];
+        int mid=low + (high-low)/2;
+        if(mid%2!=0)
+        {
+            if(nums[mid]==nums[mid-1])
+            {
+                low=mid+1;
+            }
+            else{
+                high=mid;
+            }
+        }
+        else{
+            if(nums[mid]==nums[mid+1])
+            {
+                low=mid+1;
+            }
+            else{
+                high=mid;
+            }
+        }
     }
-
-    return -1;
+    return nums[low];
 }
