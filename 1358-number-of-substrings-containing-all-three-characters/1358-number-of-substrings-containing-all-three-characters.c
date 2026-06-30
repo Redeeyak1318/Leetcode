@@ -1,22 +1,19 @@
-int numberOfSubstrings(char* s) {
-    int n = strlen(s);
-    int count[3] = {0};
+int min(int a, int b, int c) {
+    int m = a < b ? a : b;
+    return m < c ? m : c;
+}
 
-    int left = 0;
+int numberOfSubstrings(char *s) {
+    int last[3] = {-1, -1, -1};
     int ans = 0;
 
-    for (int right = 0; right < n; right++) {
-        count[s[right] - 'a']++;
+    for (int i = 0; s[i] != '\0'; i++) {
+        last[s[i] - 'a'] = i;
 
-        while (count[0] > 0 &&
-               count[1] > 0 &&
-               count[2] > 0) {
+        int m = min(last[0], last[1], last[2]);
 
-            ans += (n - right);
-
-            count[s[left] - 'a']--;
-            left++;
-        }
+        if (m != -1)
+            ans += m + 1;
     }
 
     return ans;
