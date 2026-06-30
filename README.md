@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Redeeyak1318/Leetcode/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/Redeeyak1318/Leetcode/tree/master/0169-majority-element) |
 | [0389-find-the-difference](https://github.com/Redeeyak1318/Leetcode/tree/master/0389-find-the-difference) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Redeeyak1318/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Redeeyak1318/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 ## String
 |  |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Redeeyak1318/Leetcode/tree/master/0067-add-binary) |
 | [0344-reverse-string](https://github.com/Redeeyak1318/Leetcode/tree/master/0344-reverse-string) |
 | [0389-find-the-difference](https://github.com/Redeeyak1318/Leetcode/tree/master/0389-find-the-difference) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Redeeyak1318/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Redeeyak1318/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Dynamic Programming
 |  |
@@ -117,4 +119,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Redeeyak1318/Leetcode/tree/master/0067-add-binary) |
+## Sliding Window
+|  |
+| ------- |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Redeeyak1318/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 <!---LeetCode Topics End-->
