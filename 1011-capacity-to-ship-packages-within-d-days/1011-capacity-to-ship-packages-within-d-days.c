@@ -1,4 +1,4 @@
-bool canship(int *weights, int weightsSize, int capacity, int days)
+bool canship(int* weights, int weightsSize, int capacity, int days)
 {
     int daysneeded=1;
     int currload=0;
