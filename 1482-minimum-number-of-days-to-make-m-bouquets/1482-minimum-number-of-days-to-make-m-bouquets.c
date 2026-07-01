@@ -1,4 +1,4 @@
-bool bloom(int* bloomDay, int bloomDaySize, int day, int m, int k)
+bool canMakeBouquets(int* bloomDay, int bloomDaySize, int day, int m, int k)
 {
     int flowCount=0;
     int bouquets=0;
@@ -16,9 +16,12 @@ bool bloom(int* bloomDay, int bloomDaySize, int day, int m, int k)
         {
             bouquets++;
             flowCount=0;
+
+            if(bouquets >= m)
+                return true;
         }
     }
-    return bouquets>=m;
+    return false;
 }
 int minDays(int* bloomDay, int bloomDaySize, int m, int k) {
     if((long long)m * k >bloomDaySize)
@@ -36,7 +39,7 @@ int minDays(int* bloomDay, int bloomDaySize, int m, int k) {
     while(low<high)
     {
         int mid = low + (high-low)/2;
-        if(bloom(bloomDay, bloomDaySize, mid, m, k))
+        if(canMakeBouquets(bloomDay, bloomDaySize, mid, m, k))
             high=mid;
         else
             low=mid+1;
