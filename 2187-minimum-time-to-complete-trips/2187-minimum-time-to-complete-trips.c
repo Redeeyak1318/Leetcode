@@ -13,12 +13,12 @@ bool canTime(int* time, int timeSize, long long currTime, int totalTrips)
 
 long long minimumTime(int* time, int timeSize, int totalTrips) {
     long long low = time[0];
-    long long high = low * totalTrips;
     for(int i=1; i<timeSize; i++)
     {
         if(time[i]<low)
             low = time[i];
     }
+    long long high = low * totalTrips;
 
     while(low < high)
     {
