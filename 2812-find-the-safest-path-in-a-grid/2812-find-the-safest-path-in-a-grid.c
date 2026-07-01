@@ -1,131 +1,169 @@
-typedef struct {
-    int d, x, y;
-} Cell;
+#define MAX_N 400
+#define MAX_CELLS (MAX_N * MAX_N)
+#define NUM_DIRS 4
 
-int parent[160000];
-int rank_[160000];
+static const int DIRECTIONS[NUM_DIRS][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
-int cmp(const void *a, const void *b) {
-    return ((Cell *)b)->d - ((Cell *)a)->d;
+static int safeness[MAX_N][MAX_N];
+static bool visited[MAX_N][MAX_N];
+
+static int queue_row[MAX_CELLS];
+static int queue_col[MAX_CELLS];
+
+static int heap_safe[MAX_CELLS];
+static int heap_row[MAX_CELLS];
+static int heap_col[MAX_CELLS];
+static int heap_size;
+
+static void heap_swap(int idx_a, int idx_b) {
+    int tmp_safe = heap_safe[idx_a];
+    int tmp_row = heap_row[idx_a];
+    int tmp_col = heap_col[idx_a];
+    heap_safe[idx_a] = heap_safe[idx_b];
+    heap_row[idx_a] = heap_row[idx_b];
+    heap_col[idx_a] = heap_col[idx_b];
+    heap_safe[idx_b] = tmp_safe;
+    heap_row[idx_b] = tmp_row;
+    heap_col[idx_b] = tmp_col;
 }
 
-int find(int x) {
-    if (parent[x] != x)
-        parent[x] = find(parent[x]);
-    return parent[x];
-}
+static void heap_push(int safe_val, int row, int col) {
+    int idx = heap_size++;
+    heap_safe[idx] = safe_val;
+    heap_row[idx] = row;
+    heap_col[idx] = col;
 
-void unite(int a, int b) {
-    a = find(a);
-    b = find(b);
-
-    if (a == b) return;
-
-    if (rank_[a] < rank_[b])
-        parent[a] = b;
-    else if (rank_[a] > rank_[b])
-        parent[b] = a;
-    else {
-        parent[b] = a;
-        rank_[a]++;
-    }
-}
-
-int maximumSafenessFactor(int** grid, int gridSize, int* gridColSize) {
-    int n = gridSize;
-    int total = n * n;
-
-    int *dist = (int *)malloc(total * sizeof(int));
-    bool *active = (bool *)calloc(total, sizeof(bool));
-
-    for (int i = 0; i < total; i++)
-        dist[i] = -1;
-
-    int *queue = (int *)malloc(total * sizeof(int));
-    int front = 0, rear = 0;
-
-    // Multi-source BFS
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            if (grid[i][j]) {
-                int id = i * n + j;
-                dist[id] = 0;
-                queue[rear++] = id;
-            }
+    while (idx > 0) {
+        int parent = (idx - 1) / 2;
+        if (heap_safe[parent] >= heap_safe[idx]) {
+            break;
         }
+        heap_swap(parent, idx);
+        idx = parent;
+    }
+}
+
+static void heap_pop(int* safe_val, int* row, int* col) {
+    *safe_val = heap_safe[0];
+    *row = heap_row[0];
+    *col = heap_col[0];
+
+    heap_size--;
+    if (heap_size == 0) {
+        return;
     }
 
-    int dir[4][2] = {{1,0},{-1,0},{0,1},{0,-1}};
+    heap_safe[0] = heap_safe[heap_size];
+    heap_row[0] = heap_row[heap_size];
+    heap_col[0] = heap_col[heap_size];
 
-    while (front < rear) {
-        int id = queue[front++];
-        int x = id / n;
-        int y = id % n;
-
-        for (int k = 0; k < 4; k++) {
-            int nx = x + dir[k][0];
-            int ny = y + dir[k][1];
-
-            if (nx >= 0 && nx < n && ny >= 0 && ny < n) {
-                int nid = nx * n + ny;
-                if (dist[nid] == -1) {
-                    dist[nid] = dist[id] + 1;
-                    queue[rear++] = nid;
-                }
-            }
-        }
-    }
-
-    Cell *cells = (Cell *)malloc(total * sizeof(Cell));
     int idx = 0;
+    while (true) {
+        int largest = idx;
+        int left = (2 * idx) + 1;
+        int right = (2 * idx) + 2;
 
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            cells[idx++] = (Cell){dist[i * n + j], i, j};
+        if (left < heap_size && heap_safe[left] > heap_safe[largest]) {
+            largest = left;
+        }
+        if (right < heap_size && heap_safe[right] > heap_safe[largest]) {
+            largest = right;
+        }
+        if (largest == idx) {
+            break;
+        }
+        heap_swap(idx, largest);
+        idx = largest;
+    }
+}
+
+static bool is_valid(int row, int col, int size) {
+    return row >= 0 && row < size && col >= 0 && col < size;
+}
+
+static void compute_safeness(int** grid, int size) {
+    for (int row = 0; row < size; row++) {
+        for (int col = 0; col < size; col++) {
+            safeness[row][col] = -1;
+            visited[row][col] = false;
         }
     }
 
-    qsort(cells, total, sizeof(Cell), cmp);
+    int head = 0;
+    int tail = 0;
 
-    for (int i = 0; i < total; i++) {
-        parent[i] = i;
-        rank_[i] = 0;
-    }
-
-    int start = 0;
-    int end = total - 1;
-
-    for (int i = 0; i < total; i++) {
-        int x = cells[i].x;
-        int y = cells[i].y;
-        int id = x * n + y;
-
-        active[id] = true;
-
-        for (int k = 0; k < 4; k++) {
-            int nx = x + dir[k][0];
-            int ny = y + dir[k][1];
-
-            if (nx >= 0 && nx < n && ny >= 0 && ny < n) {
-                int nid = nx * n + ny;
-                if (active[nid])
-                    unite(id, nid);
+    for (int row = 0; row < size; row++) {
+        for (int col = 0; col < size; col++) {
+            if (grid[row][col] == 1) {
+                safeness[row][col] = 0;
+                queue_row[head] = row;
+                queue_col[head] = col;
+                head++;
             }
         }
+    }
 
-        if (active[start] && active[end] && find(start) == find(end)) {
-            int ans = cells[i].d;
-            free(dist);
-            free(active);
-            free(queue);
-            free(cells);
-            return ans;
+    while (tail < head) {
+        int row = queue_row[tail];
+        int col = queue_col[tail];
+        tail++;
+
+        for (int d = 0; d < NUM_DIRS; d++) {
+            int new_row = row + DIRECTIONS[d][0];
+            int new_col = col + DIRECTIONS[d][1];
+
+            if (is_valid(new_row, new_col, size) &&
+                safeness[new_row][new_col] == -1) {
+                safeness[new_row][new_col] = safeness[row][col] + 1;
+                queue_row[head] = new_row;
+                queue_col[head] = new_col;
+                head++;
+            }
+        }
+    }
+}
+
+static int find_max_safeness_path(int size) {
+    heap_size = 0;
+    heap_push(safeness[0][0], 0, 0);
+    visited[0][0] = true;
+
+    while (heap_size > 0) {
+        int path_safeness;
+        int row;
+        int col;
+        heap_pop(&path_safeness, &row, &col);
+
+        if (row == size - 1 && col == size - 1) {
+            return path_safeness;
+        }
+
+        for (int d = 0; d < NUM_DIRS; d++) {
+            int new_row = row + DIRECTIONS[d][0];
+            int new_col = col + DIRECTIONS[d][1];
+
+            if (is_valid(new_row, new_col, size) &&
+                !visited[new_row][new_col]) {
+                visited[new_row][new_col] = true;
+                int new_safeness = safeness[new_row][new_col];
+                if (new_safeness > path_safeness) {
+                    new_safeness = path_safeness;
+                }
+                heap_push(new_safeness, new_row, new_col);
+            }
         }
     }
 
-    free(dist);
-    free(active);
-    free(queue);
-    free(cells);
     return 0;
+}
+
+int maximumSafenessFactor(int** grid, int grid_size, int* grid_col_size) {
+    (void)grid_col_size;
+
+    if (grid[0][0] == 1 || grid[grid_size - 1][grid_size - 1] == 1) {
+        return 0;
+    }
+
+    compute_safeness(grid, grid_size);
+    return find_max_safeness_path(grid_size);
 }
