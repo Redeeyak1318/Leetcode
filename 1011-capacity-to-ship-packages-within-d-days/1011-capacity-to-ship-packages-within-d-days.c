@@ -1,3 +1,27 @@
+bool canship(int *weights, int weightsSize, int capacity, int days)
+{
+    int daysneeded=1;
+    int currload=0;
+    for(int i=0;i<weightsSize;i++)
+    {
+        if(currload+weights[i]<=capacity)
+        {
+            currload+=weights[i];
+        }
+        else
+        {
+            daysneeded++;
+            currload=weights[i];
+
+            if(daysneeded>days)
+            {
+                break;
+            }
+        }
+    }
+    return daysneeded<=days;
+}
+
 int shipWithinDays(int* weights, int weightsSize, int days) {
     int low=weights[0];
     int high=weights[0];
@@ -10,30 +34,11 @@ int shipWithinDays(int* weights, int weightsSize, int days) {
     while(low<high)
     {
         int mid=low + (high-low)/2;
-        int daysneeded=1;
-        int currload=0;
-        for(int i=0;i<weightsSize;i++)
-        {
-            if(currload+weights[i]<=mid)
-            {
-                currload+=weights[i];
-            }
-            else
-            {
-                daysneeded++;
-                currload=weights[i];
-
-                if(daysneeded>days)
-                {
-                    break;
-                }
-            }
-        }
-        if(daysneeded<=days)
+        
+        if(canship(weights, weightsSize, mid, days))
             high=mid;
         else
             low=mid+1;
     }
-    return low;
-    
+    return low;  
 }
