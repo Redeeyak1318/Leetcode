@@ -10,21 +10,26 @@ int shipWithinDays(int* weights, int weightsSize, int days) {
     while(low<high)
     {
         int mid=low + (high-low)/2;
-        int totaldays=1;
-        int sum=0;
+        int daysneeded=1;
+        int currload=0;
         for(int i=0;i<weightsSize;i++)
         {
-            if(sum+weights[i]<=mid)
+            if(currload+weights[i]<=mid)
             {
-                sum+=weights[i];
+                currload+=weights[i];
             }
             else
             {
-                totaldays++;
-                sum=weights[i];
+                daysneeded++;
+                currload=weights[i];
+
+                if(daysneeded>days)
+                {
+                    break;
+                }
             }
         }
-        if(totaldays<=days)
+        if(daysneeded<=days)
             high=mid;
         else
             low=mid+1;
