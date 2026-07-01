@@ -16,7 +16,7 @@ int guessNumber(int n){
     while(low<=high)
     {
         int mid = low + (high-low)/2;
-        int result = guess((int)mid);
+        int result = guess(mid);
         if(result==0)
             return mid;
         else if(result==-1)
