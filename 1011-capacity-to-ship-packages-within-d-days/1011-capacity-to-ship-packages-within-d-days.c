@@ -15,11 +15,11 @@ bool canship(int* weights, int weightsSize, int capacity, int days)
 
             if(daysneeded>days)
             {
-                break;
+                return false;
             }
         }
     }
-    return daysneeded<=days;
+    return true;
 }
 
 int shipWithinDays(int* weights, int weightsSize, int days) {
