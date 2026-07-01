@@ -7,18 +7,18 @@ bool canMakeBouquets(int* bloomDay, int bloomDaySize, int day, int m, int k)
         if(bloomDay[i]<=day)
         {
             flowCount++;
+            if(flowCount == k)
+            {
+                bouquets++;
+                flowCount = 0;
+
+                if(bouquets >= m)
+                    return true;
+            }
         }
         else
         {
             flowCount=0;
-        }
-        if(flowCount==k)
-        {
-            bouquets++;
-            flowCount=0;
-
-            if(bouquets >= m)
-                return true;
         }
     }
     return false;
