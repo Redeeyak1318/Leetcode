@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0704-binary-search](https://github.com/Redeeyak1318/Leetcode/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Redeeyak1318/Leetcode/tree/master/0875-koko-eating-bananas) |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Redeeyak1318/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Redeeyak1318/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Redeeyak1318/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Redeeyak1318/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Redeeyak1318/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Redeeyak1318/Leetcode/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Redeeyak1318/Leetcode/tree/master/0875-koko-eating-bananas) |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Redeeyak1318/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Redeeyak1318/Leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Hash Table
 |  |
