@@ -2,7 +2,7 @@
 bool isBadVersion(int version);
 
 int firstBadVersion(int n) {
-    int low = 0;
+    int low = 1;
     int high = n;
 
     while(low < high)
