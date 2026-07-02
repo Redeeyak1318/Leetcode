@@ -1,4 +1,4 @@
-bool isPossible(int *arr, int arrSize, int k, int i)
+bool isPossible(int *arr, int k, int i)
 {
     if(arr[i] - i - 1 >= k)
         return true;
@@ -11,7 +11,7 @@ int findKthPositive(int* arr, int arrSize, int k) {
     while(low <= high)
     {
         int mid = low + (high - low)/2;
-        if(isPossible(arr, arrSize, k, mid))
+        if(isPossible(arr, k, mid))
         {
             high = mid - 1;
         }
