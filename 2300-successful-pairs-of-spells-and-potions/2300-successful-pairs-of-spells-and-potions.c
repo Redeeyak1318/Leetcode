@@ -32,9 +32,8 @@ int* successfulPairs(int* spells, int spellsSize, int* potions, int potionsSize,
             else{
                 low = mid + 1;
             }
-            int count = potionsSize - low;
-            ans[i] = count;
         }
+        ans[i] = potionsSize - low;
     }
     return ans;
 
