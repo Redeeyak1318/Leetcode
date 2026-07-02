@@ -23,9 +23,10 @@ int* successfulPairs(int* spells, int spellsSize, int* potions, int potionsSize,
         int high = potionsSize - 1;
         while(low <= high)
         {
+            long long need = (success + spells[i] - 1) / spells[i];
             int mid = low + (high - low)/2;
             
-            if((long long)spells[i] * potions[mid] >= success)
+            if(potions[mid] >= need)
             {
                 high = mid - 1;
             }
