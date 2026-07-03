@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/Redeeyak1318/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Redeeyak1318/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Redeeyak1318/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Redeeyak1318/Leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Redeeyak1318/Leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/Redeeyak1318/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Redeeyak1318/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/Redeeyak1318/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Redeeyak1318/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Redeeyak1318/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Redeeyak1318/Leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Redeeyak1318/Leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/Redeeyak1318/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [2187-minimum-time-to-complete-trips](https://github.com/Redeeyak1318/Leetcode/tree/master/2187-minimum-time-to-complete-trips) |
@@ -83,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Redeeyak1318/Leetcode/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/Redeeyak1318/Leetcode/tree/master/0169-majority-element) |
 | [0389-find-the-difference](https://github.com/Redeeyak1318/Leetcode/tree/master/0389-find-the-difference) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Redeeyak1318/Leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Redeeyak1318/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Redeeyak1318/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 ## String
@@ -112,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Redeeyak1318/Leetcode/tree/master/0169-majority-element) |
 | [0389-find-the-difference](https://github.com/Redeeyak1318/Leetcode/tree/master/0389-find-the-difference) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Redeeyak1318/Leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Redeeyak1318/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Redeeyak1318/Leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 ## Counting
@@ -131,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Redeeyak1318/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0283-move-zeroes](https://github.com/Redeeyak1318/Leetcode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Redeeyak1318/Leetcode/tree/master/0344-reverse-string) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Redeeyak1318/Leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Redeeyak1318/Leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 ## Enumeration
 |  |
