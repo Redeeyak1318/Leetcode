@@ -1,6 +1,6 @@
 bool isPalindrome(int x) {
     int ori = x;
-    int rev = 0;
+    long long rev = 0;
     if(x < 0)
         return false;
     while(x > 0)
