@@ -1,5 +1,5 @@
 long long sumAndMultiply(int n) {
-    long long digit;
+    int digit;
     long long x= 0;
     long long place = 1;
     long long sum = 0;
