@@ -1,15 +1,21 @@
-int maximumStrongPairXor(int* nums, int numsSize) {
+int cmp(const void *a, const void *b)
+{
+    return (*(int*)a - *(int*)b);
+}
+
+int maximumStrongPairXor(int* nums, int numsSize)
+{
+    qsort(nums, numsSize, sizeof(int), cmp);
+
     int ans = 0;
 
     for(int i = 0; i < numsSize; i++)
     {
-        for(int j = i; j < numsSize; j++)
+        for(int j = i; j < numsSize && nums[j] <= 2 * nums[i]; j++)
         {
-            if(abs(nums[i] - nums[j]) <= (nums[i] < nums[j] ? nums[i] : nums[j]))
-            {
-                if((nums[i] ^ nums[j]) > ans)
-                    ans = nums[i] ^ nums[j];
-            }
+            int xr = nums[i] ^ nums[j];
+            if(xr > ans)
+                ans = xr;
         }
     }
 
