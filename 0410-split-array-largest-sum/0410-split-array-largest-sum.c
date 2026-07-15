@@ -20,9 +20,9 @@ int splitArray(int* nums, int numsSize, int k) {
                 currsum += nums[i];
             else
             {   
+                subArray++;
                 if(subArray > k)
                     break; 
-                subArray++;
                 currsum = nums[i];
             }
         }
