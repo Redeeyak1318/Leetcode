@@ -1,7 +1,17 @@
+int gcd(int a, int b)
+{
+    while(b!=0)
+    {
+        int temp = b;
+        b = a % b;
+        a = temp; 
+    }
+    return a;
+}
+
 int findGCD(int* nums, int numsSize) {
     int smallest = nums[0];
     int largest = nums[0];
-    int gcd = 1;
     for(int i=1; i<numsSize; i++)
     {
         if(nums[i] < smallest)
@@ -13,12 +23,6 @@ int findGCD(int* nums, int numsSize) {
     if(smallest == largest)
         return smallest;
     
-    for(int i=1; i <= smallest && i <= largest; ++i)
-    {
-        
-        if(smallest%i==0 && largest%i==0)
-            gcd = i;
-    }
 
-    return gcd;
+    return gcd(smallest, largest);
 }
