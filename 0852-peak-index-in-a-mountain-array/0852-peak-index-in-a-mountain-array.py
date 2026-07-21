@@ -1,5 +1,9 @@
-class Solution:
-    def peakIndexInMountainArray(self, arr: List[int]) -> int:
+class Solution(object):
+    def peakIndexInMountainArray(self, arr):
+        """
+        :type arr: List[int]
+        :rtype: int
+        """
         low = 0
         high = len(arr) - 1
         while(low < high):
