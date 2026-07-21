@@ -1,5 +1,9 @@
-class Solution:
-    def sumAndMultiply(self, n: int) -> int:
+class Solution(object):
+    def sumAndMultiply(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         x = 0
         place = 1
         add = 0
