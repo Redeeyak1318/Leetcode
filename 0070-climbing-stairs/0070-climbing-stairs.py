@@ -1,5 +1,9 @@
-class Solution:
-    def climbStairs(self, n: int) -> int:
+class Solution(object):
+    def climbStairs(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         if(n <= 2):
             return n
         a = 1
