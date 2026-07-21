@@ -1,5 +1,10 @@
-class Solution:
-    def splitArray(self, nums: List[int], k: int) -> int:
+class Solution(object):
+    def splitArray(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: int
+        """
         low = nums[0]
         high = nums[0]
         for i in nums:
