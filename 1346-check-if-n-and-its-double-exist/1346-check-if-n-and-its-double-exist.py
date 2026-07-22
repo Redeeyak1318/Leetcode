@@ -1,5 +1,9 @@
-class Solution:
-    def checkIfExist(self, arr: List[int]) -> bool:
+class Solution(object):
+    def checkIfExist(self, arr):
+        """
+        :type arr: List[int]
+        :rtype: bool
+        """
         seen = set()
         
         for num in arr:
