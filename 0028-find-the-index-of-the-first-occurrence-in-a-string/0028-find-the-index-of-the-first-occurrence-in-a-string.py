@@ -1,5 +1,10 @@
-class Solution:
-    def strStr(self, haystack: str, needle: str) -> int:
+class Solution(object):
+    def strStr(self, haystack, needle):
+        """
+        :type haystack: str
+        :type needle: str
+        :rtype: int
+        """
         n = len(haystack)
         m = len(needle)
 
