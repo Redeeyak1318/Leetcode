@@ -1,5 +1,10 @@
-class Solution:
-    def maxDistance(self, position: List[int], m: int) -> int:
+class Solution(object):
+    def maxDistance(self, position, m):
+        """
+        :type position: List[int]
+        :type m: int
+        :rtype: int
+        """
         position.sort()
         low = 1
         high = position[len(position) - 1] - position[0]
