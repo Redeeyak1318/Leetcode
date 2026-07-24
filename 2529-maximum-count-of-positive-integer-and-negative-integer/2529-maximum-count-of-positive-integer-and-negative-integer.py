@@ -1,5 +1,9 @@
-class Solution:
-    def maximumCount(self, nums: List[int]) -> int:
+class Solution(object):
+    def maximumCount(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         if(nums[0] > 0 or nums[len(nums) - 1] < 0):
             return len(nums)
         if(nums[0] == 0 and nums[len(nums) -1] == 0):
