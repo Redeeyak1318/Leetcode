@@ -1,6 +1,9 @@
-
-class Solution:
-    def arrangeCoins(self, n: int) -> int:
+class Solution(object):
+    def arrangeCoins(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         low = 0
         high = n
         while(low <= high):
