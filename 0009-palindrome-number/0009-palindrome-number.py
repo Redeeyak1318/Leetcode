@@ -1,5 +1,9 @@
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
         ori = x
         rev = 0
         if(x < 0):
