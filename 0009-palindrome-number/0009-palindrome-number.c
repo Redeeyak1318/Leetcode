@@ -1,5 +1,5 @@
 bool isPalindrome(int x) {
-    int ori = x;
+    long long ori = x;
     long long rev = 0;
     if(x < 0)
         return false;
