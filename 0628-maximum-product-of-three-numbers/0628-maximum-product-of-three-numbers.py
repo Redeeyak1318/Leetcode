@@ -1,5 +1,9 @@
-class Solution:
-    def maximumProduct(self, nums: List[int]) -> int:
+class Solution(object):
+    def maximumProduct(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         largest1 = -2147483648
         largest2 = -2147483648
         largest3 = -2147483648
