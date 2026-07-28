@@ -1,7 +1,11 @@
-class Solution:
-    def maxProduct(self, nums: List[int]) -> int:
+class Solution(object):
+    def maxProduct(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         max1 = max2 = 0
-        
+
         for num in nums:
             if num > max1:
                 max2 = max1
