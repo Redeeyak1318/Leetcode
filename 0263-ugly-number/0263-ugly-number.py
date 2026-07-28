@@ -1,5 +1,9 @@
-class Solution:
-    def isUgly(self, n: int) -> bool:
+class Solution(object):
+    def isUgly(self, n):
+        """
+        :type n: int
+        :rtype: bool
+        """
         if (n <= 0):
             return False
 
