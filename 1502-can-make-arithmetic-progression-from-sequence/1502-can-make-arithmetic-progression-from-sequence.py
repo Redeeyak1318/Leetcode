@@ -1,5 +1,9 @@
-class Solution:
-    def canMakeArithmeticProgression(self, arr: List[int]) -> bool:
+class Solution(object):
+    def canMakeArithmeticProgression(self, arr):
+        """
+        :type arr: List[int]
+        :rtype: bool
+        """
         arr.sort()
 
         diff = arr[1] - arr[0]
