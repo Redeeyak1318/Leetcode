@@ -1,7 +1,11 @@
-class Solution:
-    def pivotInteger(self, n: int) -> int:
+class Solution(object):
+    def pivotInteger(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         sum = n * (n + 1) // 2
-        root = int(math.isqrt(sum))
+        root = int(math.sqrt(sum))
 
         if (root * root == sum):
             return root
