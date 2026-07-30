@@ -1,5 +1,10 @@
-class Solution:
-    def largestInteger(self, n: int, s: int) -> int:
+class Solution(object):
+    def largestInteger(self, n, s):
+        """
+        :type n: int
+        :type s: int
+        :rtype: int
+        """
         if(s > 9*n):
         
             return -1
