@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Redeeyak1318/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Redeeyak1318/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Redeeyak1318/Leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Redeeyak1318/Leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Redeeyak1318/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1470-shuffle-the-array](https://github.com/Redeeyak1318/Leetcode/tree/master/1470-shuffle-the-array) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Redeeyak1318/Leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1015-smallest-integer-divisible-by-k](https://github.com/Redeeyak1318/Leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Redeeyak1318/Leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Redeeyak1318/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Redeeyak1318/Leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [2932-maximum-strong-pair-xor-i](https://github.com/Redeeyak1318/Leetcode/tree/master/2932-maximum-strong-pair-xor-i) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Redeeyak1318/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 ## String
@@ -144,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/Redeeyak1318/Leetcode/tree/master/0389-find-the-difference) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Redeeyak1318/Leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Redeeyak1318/Leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Redeeyak1318/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/Redeeyak1318/Leetcode/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1552-magnetic-force-between-two-balls](https://github.com/Redeeyak1318/Leetcode/tree/master/1552-magnetic-force-between-two-balls) |
@@ -238,4 +241,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/Redeeyak1318/Leetcode/tree/master/0877-stone-game) |
+## Counting Sort
+|  |
+| ------- |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Redeeyak1318/Leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 <!---LeetCode Topics End-->
