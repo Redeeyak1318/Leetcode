@@ -1,20 +1,12 @@
-class Solution(object):
-    def smallerNumbersThanCurrent(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
-        ans = [0] * len(nums)
-        k = 0
-        for i in nums:
+class Solution:
+    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+        sorted_nums = sorted(nums)
+        mapping = {}
         
-            val = i
-            count = 0
-            for j in nums:
-            
-                if(val>j):
-                    count+=1
-            
-            ans[k] = count
-            k+=1
-        return ans
+        
+        for i, num in enumerate(sorted_nums):
+            if num not in mapping:
+                mapping[num] = i 
+                
+     
+        return [mapping[num] for num in nums]
