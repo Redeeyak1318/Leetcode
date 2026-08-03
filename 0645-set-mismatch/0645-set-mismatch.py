@@ -1,5 +1,9 @@
-class Solution:
-    def findErrorNums(self, nums: List[int]) -> List[int]:
+class Solution(object):
+    def findErrorNums(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
         ans = [None] * 2
         count = [0] * (len(nums) + 1)
         n = len(nums)
