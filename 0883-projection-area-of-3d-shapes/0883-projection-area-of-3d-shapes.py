@@ -1,5 +1,9 @@
-class Solution:
-    def projectionArea(self, grid: List[List[int]]) -> int:
+class Solution(object):
+    def projectionArea(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
         n = len(grid)
         top_area = 0
         side_area = 0
