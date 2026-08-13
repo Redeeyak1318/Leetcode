@@ -1,5 +1,10 @@
-class Solution:
-    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+class Solution(object):
+    def minSubArrayLen(self, target, nums):
+        """
+        :type target: int
+        :type nums: List[int]
+        :rtype: int
+        """
         left = 0
         current_sum = 0
         min_len = 2147483647
