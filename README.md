@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/Redeeyak1318/Leetcode/tree/master/0645-set-mismatch) |
 | [0704-binary-search](https://github.com/Redeeyak1318/Leetcode/tree/master/0704-binary-search) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Redeeyak1318/Leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
+| [0826-most-profit-assigning-work](https://github.com/Redeeyak1318/Leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Redeeyak1318/Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/Redeeyak1318/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/Redeeyak1318/Leetcode/tree/master/0877-stone-game) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Redeeyak1318/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Redeeyak1318/Leetcode/tree/master/0704-binary-search) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Redeeyak1318/Leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
+| [0826-most-profit-assigning-work](https://github.com/Redeeyak1318/Leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Redeeyak1318/Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/Redeeyak1318/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Redeeyak1318/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/Redeeyak1318/Leetcode/tree/master/0389-find-the-difference) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/Redeeyak1318/Leetcode/tree/master/0645-set-mismatch) |
+| [0826-most-profit-assigning-work](https://github.com/Redeeyak1318/Leetcode/tree/master/0826-most-profit-assigning-work) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Redeeyak1318/Leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Redeeyak1318/Leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Redeeyak1318/Leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -192,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Redeeyak1318/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0283-move-zeroes](https://github.com/Redeeyak1318/Leetcode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/Redeeyak1318/Leetcode/tree/master/0344-reverse-string) |
+| [0826-most-profit-assigning-work](https://github.com/Redeeyak1318/Leetcode/tree/master/0826-most-profit-assigning-work) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Redeeyak1318/Leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Redeeyak1318/Leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 ## Enumeration
@@ -208,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Redeeyak1318/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0826-most-profit-assigning-work](https://github.com/Redeeyak1318/Leetcode/tree/master/0826-most-profit-assigning-work) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Redeeyak1318/Leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 ## Simulation
 |  |
