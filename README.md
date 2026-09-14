@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0441-arranging-coins](https://github.com/Redeeyak1318/Leetcode/tree/master/0441-arranging-coins) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0728-self-dividing-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/0728-self-dividing-numbers) |
+| [0836-rectangle-overlap](https://github.com/Redeeyak1318/Leetcode/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/Redeeyak1318/Leetcode/tree/master/0877-stone-game) |
 | [0883-projection-area-of-3d-shapes](https://github.com/Redeeyak1318/Leetcode/tree/master/0883-projection-area-of-3d-shapes) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/Redeeyak1318/Leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
@@ -318,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0836-rectangle-overlap](https://github.com/Redeeyak1318/Leetcode/tree/master/0836-rectangle-overlap) |
 | [0883-projection-area-of-3d-shapes](https://github.com/Redeeyak1318/Leetcode/tree/master/0883-projection-area-of-3d-shapes) |
 ## Linked List
 |  |
