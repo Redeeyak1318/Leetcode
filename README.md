@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1866-number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://github.com/Redeeyak1318/Leetcode/tree/master/1866-number-of-ways-to-rearrange-sticks-with-k-sticks-visible) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Redeeyak1318/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2235-add-two-integers](https://github.com/Redeeyak1318/Leetcode/tree/master/2235-add-two-integers) |
+| [2409-count-days-spent-together](https://github.com/Redeeyak1318/Leetcode/tree/master/2409-count-days-spent-together) |
 | [2485-find-the-pivot-integer](https://github.com/Redeeyak1318/Leetcode/tree/master/2485-find-the-pivot-integer) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Redeeyak1318/Leetcode/tree/master/2523-closest-prime-numbers-in-range) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Redeeyak1318/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Redeeyak1318/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Redeeyak1318/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Redeeyak1318/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [2409-count-days-spent-together](https://github.com/Redeeyak1318/Leetcode/tree/master/2409-count-days-spent-together) |
 | [3498-reverse-degree-of-a-string](https://github.com/Redeeyak1318/Leetcode/tree/master/3498-reverse-degree-of-a-string) |
 ## Dynamic Programming
 |  |
