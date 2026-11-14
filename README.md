@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2932-maximum-strong-pair-xor-i](https://github.com/Redeeyak1318/Leetcode/tree/master/2932-maximum-strong-pair-xor-i) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Redeeyak1318/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Redeeyak1318/Leetcode/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3364-minimum-positive-sum-subarray](https://github.com/Redeeyak1318/Leetcode/tree/master/3364-minimum-positive-sum-subarray) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Redeeyak1318/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Redeeyak1318/Leetcode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Redeeyak1318/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Redeeyak1318/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2932-maximum-strong-pair-xor-i](https://github.com/Redeeyak1318/Leetcode/tree/master/2932-maximum-strong-pair-xor-i) |
+| [3364-minimum-positive-sum-subarray](https://github.com/Redeeyak1318/Leetcode/tree/master/3364-minimum-positive-sum-subarray) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -308,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Redeeyak1318/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0410-split-array-largest-sum](https://github.com/Redeeyak1318/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [2485-find-the-pivot-integer](https://github.com/Redeeyak1318/Leetcode/tree/master/2485-find-the-pivot-integer) |
+| [3364-minimum-positive-sum-subarray](https://github.com/Redeeyak1318/Leetcode/tree/master/3364-minimum-positive-sum-subarray) |
 ## Number Theory
 |  |
 | ------- |
