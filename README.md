@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2932-maximum-strong-pair-xor-i](https://github.com/Redeeyak1318/Leetcode/tree/master/2932-maximum-strong-pair-xor-i) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Redeeyak1318/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Redeeyak1318/Leetcode/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Redeeyak1318/Leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3364-minimum-positive-sum-subarray](https://github.com/Redeeyak1318/Leetcode/tree/master/3364-minimum-positive-sum-subarray) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Redeeyak1318/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Redeeyak1318/Leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2932-maximum-strong-pair-xor-i](https://github.com/Redeeyak1318/Leetcode/tree/master/2932-maximum-strong-pair-xor-i) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Redeeyak1318/Leetcode/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Redeeyak1318/Leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Redeeyak1318/Leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Redeeyak1318/Leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 ## String
@@ -180,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Redeeyak1318/Leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/Redeeyak1318/Leetcode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2409-count-days-spent-together](https://github.com/Redeeyak1318/Leetcode/tree/master/2409-count-days-spent-together) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Redeeyak1318/Leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3498-reverse-degree-of-a-string](https://github.com/Redeeyak1318/Leetcode/tree/master/3498-reverse-degree-of-a-string) |
 ## Dynamic Programming
 |  |
@@ -395,4 +398,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Redeeyak1318/Leetcode/tree/master/0005-longest-palindromic-substring) |
+## Tree
+|  |
+| ------- |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Redeeyak1318/Leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
+## Depth-First Search
+|  |
+| ------- |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Redeeyak1318/Leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 <!---LeetCode Topics End-->
