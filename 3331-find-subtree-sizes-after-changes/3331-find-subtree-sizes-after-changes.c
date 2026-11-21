@@ -3,8 +3,7 @@
  * assume caller calls free().
  */
 
-int* findSubtreeSizes(int* parent, int parentSize,
-                       char* s, int* returnSize) {
+int* findSubtreeSizes(int* parent, int parentSize,char* s, int* returnSize) {
 
     int n = parentSize;
 
